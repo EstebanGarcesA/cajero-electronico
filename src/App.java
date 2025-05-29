@@ -16,6 +16,11 @@ public class App {
                 double saldoCuenta = 0;
                 System.out.println("Seleccione una opcion: \n1. Consultar saldo\n2. Retirar Dinero\n3. Depositar Dinero\n4. Transferir dinero\n5. Cerrar Sesión");
                 int opcion = sc.nextInt();
+                switch (opcion) {
+                    case 1:
+                        System.out.println("Su saldo es: "+ saldoCuenta);
+                        break;
+                }
             } else {
                 System.out.println("Usuario y/o contraseña incorrectos");
                 intentos++;
